@@ -1,0 +1,277 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,500,700');
+* {padding: 0; margin: 0; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+
+.spectate{
+	position: absolute;
+	color: rgba(255, 255, 255, 0.8);
+	/* color: #ffffff;
+	background-color: #000000; */
+	background-color: rgba(0, 0, 0, 0.7);
+	min-width: 880px;
+	border-radius: 10px;
+	border: 1px solid #ffffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+
+}
+
+.users td{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.spectate .header{
+	/* background-color: #dea516; */
+	background-color: rgba(56, 167, 33, 0.6);
+	padding: 5px;
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+	border: 1px solid white;
+	border-style: none none solid none;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;
+}
+
+.header h2{
+	display: inline-block;
+	font-size: 15px;
+}
+
+.header #close{
+	float: right;
+	position: relative;
+	top: 4px;
+	color: #ff6c4f;
+	font-size: 15px;
+}
+
+#close:hover {
+	color: #ff0000;
+}
+
+.header #player{
+	float: right;
+	position: relative;
+	top: 4px;
+	color: #ffffff;
+	font-size: 15px;
+	left: -45rem;
+}
+
+.header #player2{
+	float: right;
+	position: relative;
+	color: #ffffff;
+	font-size: 15px;
+	left: 0.25rem;
+}
+
+.spectate .users{
+	max-height: 700px;
+    overflow: auto;
+
+}
+
+.user{
+	font-weight: bold;
+	font-size: 15px;
+	border-top: 2px solid white;
+}
+
+.user .user-actions{
+	float: right;
+	position: relative;
+	bottom: 1px;
+}
+
+.header #searchInput {
+	position: relative;
+	font-size: 15px;
+	left: 30rem;
+	border-radius: 4px;
+	border: none;
+    resize: none;
+    outline: none;
+}
+
+.table-a {
+	width: 50vmin;
+	height: 30px;
+	table-layout: fixed;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;
+}
+
+.table-a .idasd {
+	width: 5vmin;
+	height: 30px;
+	table-layout: fixed;
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+	 
+}
+
+.table-a .steam {
+	width: 19vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-a .icnameasd {
+	width: 22.5vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-a .group {
+	width: 13vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-a .job {
+	width: 25vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-a .cash {
+	width: 10vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-a .bank {
+	width: 10vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+.table-a .black {
+	width: 8vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+.table-a .spectateop {
+	width: 8vmin;
+	height: 30px;
+	table-layout: fixed;
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b {
+	width: 50vmin;
+	height: 30px;
+	text-align: center;
+	table-layout: fixed;
+	margin-left: 0px;
+}
+
+.table-b .id {
+	width: 5vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b .steamName {
+	width: 19vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b .name {
+	width: 22.5vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b .group {
+	width: 13vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b .job {
+	width: 25vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+.table-b .money {
+	width: 10vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b .bank {
+	width: 10vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b .black {
+	width: 8vmin;
+	height: 30px;
+	table-layout: fixed; 
+	border: 1px solid white; 
+	border-style: solid solid solid solid;
+}
+
+.table-b .spec {
+	width: 8vmin;
+	height: 30px;
+	table-layout: fixed;
+	border-radius: 5px;
+}
+
+button {
+	background-color: rgba(56, 167, 33, 0.5);
+	color: #fff;
+	padding: 3px 10px;
+	outline: none;
+	border: none;
+	min-width: 49px;
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;
+}
+
+button:hover {
+	background-color: rgba(56, 167, 33, 0.9);
+}
